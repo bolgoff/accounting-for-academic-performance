@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>797</width>
+    <height>593</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>797</width>
+    <height>593</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>797</width>
+    <height>593</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Учет успеваемости студентов</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(70, 84, 100);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QScrollArea" name="scrollArea">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>290</y>
+      <width>781</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <property name="widgetResizable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>758</width>
+       <height>323</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QLineEdit" name="lename_1">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(93, 111, 132);
+padding-left: 6px;
+color: rgb(255, 255, 255);
+border-radius: 7px;</string>
+        </property>
+        <property name="text">
+         <string>Название предмета</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="len_1">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(93, 111, 132);
+padding-left: 6px;
+color: rgb(255, 255, 255);
+border-radius: 7px;</string>
+        </property>
+        <property name="text">
+         <string>Кол-во посещенных часов</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="cb_1">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(93, 111, 132);
+padding-left: 6px;
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="currentText">
+         <string/>
+        </property>
+        <property name="currentIndex">
+         <number>-1</number>
+        </property>
+        <item>
+         <property name="text">
+          <string>зачтено</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>не зачтено</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>отлично(5)</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>хорошо(4)</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>удовлетворительно(3)</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>неудовлетворительно(2)</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lename_2">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(93, 111, 132);
+padding-left: 6px;
+color: rgb(255, 255, 255);
+border-radius: 7px;</string>
+        </property>
+        <property name="text">
+         <string>Название предмета</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="len_2">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(93, 111, 132);
+padding-left: 6px;
+color: rgb(255, 255, 255);
+border-radius: 7px;</string>
+        </property>
+        <property name="text">
+         <string>Кол-во посещенных часов</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="cb_2">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(93, 111, 132);
+padding-left: 6px;
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="currentText">
+         <string/>
+        </property>
+        <property name="currentIndex">
+         <number>-1</number>
+        </property>
+        <item>
+         <property name="text">
+          <string>зачтено</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>не зачтено</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>отлично(5)</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>хорошо(4)</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>удовлетворительно(3)</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>неудовлетворительно(2)</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lename_3">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(93, 111, 132);
+padding-left: 6px;
+color: rgb(255, 255, 255);
+border-radius: 7px;</string>
+        </property>
+        <property name="text">
+         <string>Название предмета</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="len_3">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(93, 111, 132);
+padding-left: 6px;
+color: rgb(255, 255, 255);
+border-radius: 7px;</string>
+        </property>
+        <property name="text">
+         <string>Кол-во посещенных часов</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="cb_3">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(93, 111, 132);
+padding-left: 6px;
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="currentText">
+         <string/>
+        </property>
+        <property name="currentIndex">
+         <number>-1</number>
+        </property>
+        <item>
+         <property name="text">
+          <string>зачтено</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>не зачтено</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>отлично(5)</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>хорошо(4)</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>удовлетворительно(3)</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>неудовлетворительно(2)</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lename_4">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(93, 111, 132);
+padding-left: 6px;
+color: rgb(255, 255, 255);
+border-radius: 7px;</string>
+        </property>
+        <property name="text">
+         <string>Название предмета</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="len_4">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(93, 111, 132);
+padding-left: 6px;
+color: rgb(255, 255, 255);
+border-radius: 7px;</string>
+        </property>
+        <property name="text">
+         <string>Кол-во посещенных часов</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="cb_4">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(93, 111, 132);
+padding-left: 6px;
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="currentText">
+         <string/>
+        </property>
+        <property name="currentIndex">
+         <number>-1</number>
+        </property>
+        <item>
+         <property name="text">
+          <string>зачтено</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>не зачтено</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>отлично(5)</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>хорошо(4)</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>удовлетворительно(3)</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>неудовлетворительно(2)</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="btn_find">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>240</y>
+      <width>93</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(93, 111, 132);
+	color: rgb(255, 255, 255);
+	border-radius: 7px;
+}
+QPushButton:hover{
+	background-color: rgb(112, 128, 144);
+	color: rgb(255, 255, 255);
+	border-radius: 7px;
+}
+QPushButton:pressed{
+	background-color: rgb(128, 128, 128);
+	color: rgb(255, 255, 255);
+	border-radius: 7px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Найти</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>539</y>
+      <width>781</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="btn_create">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	background-color: rgb(93, 111, 132);
+	color: rgb(255, 255, 255);
+	border-radius: 7px;
+}
+QPushButton:hover{
+	background-color: rgb(112, 128, 144);
+	color: rgb(255, 255, 255);
+	border-radius: 7px;
+}
+QPushButton:pressed{
+	background-color: rgb(128, 128, 128);
+	color: rgb(255, 255, 255);
+	border-radius: 7px;
+}</string>
+       </property>
+       <property name="text">
+        <string>Создать</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_update">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	background-color: rgb(93, 111, 132);
+	color: rgb(255, 255, 255);
+	border-radius: 7px;
+}
+QPushButton:hover{
+	background-color: rgb(112, 128, 144);
+	color: rgb(255, 255, 255);
+	border-radius: 7px;
+}
+QPushButton:pressed{
+	background-color: rgb(128, 128, 128);
+	color: rgb(255, 255, 255);
+	border-radius: 7px;
+}</string>
+       </property>
+       <property name="text">
+        <string>Обновить</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_delete">
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	background-color: rgb(93, 111, 132);
+	color: rgb(255, 255, 255);
+	border-radius: 7px;
+}
+QPushButton:hover{
+	background-color: rgb(112, 128, 144);
+	color: rgb(255, 255, 255);
+	border-radius: 7px;
+}
+QPushButton:pressed{
+	background-color: rgb(128, 128, 128);
+	color: rgb(255, 255, 255);
+	border-radius: 7px;
+}</string>
+       </property>
+       <property name="text">
+        <string>Удалить</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="btn_add">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>510</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background-color: rgb(93, 111, 132);
+	color: rgb(255, 255, 255);
+	border-radius: 7px;
+}
+QPushButton:hover{
+	background-color: rgb(112, 128, 144);
+	color: rgb(255, 255, 255);
+	border-radius: 7px;
+}
+QPushButton:pressed{
+	background-color: rgb(128, 128, 128);
+	color: rgb(255, 255, 255);
+	border-radius: 7px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Добавить предмет</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>8</x>
+      <y>11</y>
+      <width>781</width>
+      <height>221</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLineEdit" name="le_name">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(93, 111, 132);
+padding-left: 6px;
+color: rgb(255, 255, 255);
+border-radius: 7px;</string>
+       </property>
+       <property name="text">
+        <string>ФИО</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="le_course">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(93, 111, 132);
+padding-left: 6px;
+color: rgb(255, 255, 255);
+border-radius: 7px;</string>
+       </property>
+       <property name="text">
+        <string>Курс</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="le_birth">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(93, 111, 132);
+padding-left: 6px;
+color: rgb(255, 255, 255);
+border-radius: 7px;</string>
+       </property>
+       <property name="text">
+        <string>Дата рождения</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
